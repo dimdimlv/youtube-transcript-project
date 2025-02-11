@@ -1,0 +1,9 @@
+name: youtube-transcript-project
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - youtube-transcript-api
+      - requests
